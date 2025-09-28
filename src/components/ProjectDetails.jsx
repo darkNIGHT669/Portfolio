@@ -101,7 +101,7 @@ const ProjectDetails = ({
                 ))}
               </div>
 
-              <a
+             {/* <a
                 href={href}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -109,7 +109,7 @@ const ProjectDetails = ({
               >
                 View Project
                 <img src="assets/arrow-up.svg" className="w-4 h-4" alt="open" />
-              </a>
+              </a>*/}
             </div>
           </div>
         </div>
