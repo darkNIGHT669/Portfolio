@@ -104,26 +104,37 @@ export const myProjects = [
 export const mySocials = [
   {
     name: "WhatsApp",
-    href: "",
+    href: "https://wa.me/8053091785",
     icon: "/assets/socials/whatsApp.svg",
   },
   {
     name: "Linkedin",
-    href: "www.linkedin.com/in/harsh-498-dahiya",
+    href: "https://www.linkedin.com/in/harsh-498-dahiya",
     icon: "/assets/socials/linkedIn.svg",
   },
   {
     name: "Instagram",
-    href: "instagram.com/harsh_dahiya_1",
+    href: "https://www.instagram.com/harsh_dahiya_1",
     icon: "/assets/socials/instagram.svg",
   },
 ];
 
 export const experiences = [
-  { 
+   {
+    title: "Software & Web Development",
+    job: "Freelance / Self-Employed",
+    date: "July 2025 – Present",
+    contents: [
+      "Developing custom web applications and backend systems for clients using MERN stack, React, Node.js, and MongoDB.",
+      "Providing QA, testing, and debugging services for small to medium-scale projects.",
+      "Implementing portfolio websites, e-commerce platforms, and automated testing solutions.",
+    ],
+  },
+  {
+     
     title: "Backend Developer Intern",
     job: "Oryx International Logistics",
-    date: "Jan 2024 – Jun 2024",
+    date: "Jan 2025 – Jun 2025",
     contents: [
       "Developed and maintained backend services for logistics management using Node.js, Express, and MongoDB.",
       "Optimized API performance, reducing response time by 30%, improving real-time shipment tracking.",
@@ -165,16 +176,7 @@ export const experiences = [
       "Integrated REST APIs for content management, user interaction, and analytics dashboards.",
     ],
   },
-  {
-    title: "Freelance Developer",
-    job: "Freelance / Self-Employed",
-    date: "Software & Web Development",
-    contents: [
-      "Developing custom web applications and backend systems for clients using MERN stack, React, Node.js, and MongoDB.",
-      "Providing QA, testing, and debugging services for small to medium-scale projects.",
-      "Implementing portfolio websites, e-commerce platforms, and automated testing solutions.",
-    ],
-  },
+ ,
 ];
 export const reviews = [
   {
